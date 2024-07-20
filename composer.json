@@ -1,0 +1,21 @@
+{
+	"name" : "webazon/yandex-translator",
+	"description" : "The unofficial PHP API library of Yandex.Translate. Version 2.",
+	"type" : "library",
+	"license" : "MIT",
+	"autoload" : {
+		"psr-4" : {
+			"Webazon\\YandexTranslator\\" : "src/"
+		}
+	},
+	"authors" : [
+		{
+			"name" : "Aleksey M. Katsef"
+		}
+	],
+	"minimum-stability" : "dev",
+	"require" : {
+		"php" : "^8.2",
+		"ext-curl" : "*"
+	}
+}
